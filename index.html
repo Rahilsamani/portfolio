@@ -807,7 +807,175 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
+
+      <!-- Contact Me -->
+      <section class="contact section" id="contact">
+        <h1 class="section_title">Contact Me</h1>
+        <span class="section_subtitle">
+          Want to connect? My inbox is always open!
+        </span>
+
+        <div class="contact_container container grid">
+          <div>
+            <a href="mailto:rahilahmed1720@gmail.com" target="_blank">
+              <div class="contact_info">
+                <i class="uil uil-envelope-alt contact_icon"></i>
+                <div>
+                  <h3 class="contact_title">Email</h3>
+                  <span class="contact_subtitle">rahilahmed1720@gmail.com</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rahil-ahmed-samani/"
+              target="_blank"
+            >
+              <div class="contact_info">
+                <i class="uil uil-linkedin-alt contact_icon"></i>
+                <div>
+                  <h3 class="contact_title">Linkedin</h3>
+                  <span class="contact_subtitle">@rahil-ahmed-samani</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://x.com/rahilahmed1720" target="_blank">
+              <div class="contact_info">
+                <i class="uil uil-twitter-alt contact_icon"></i>
+                <div>
+                  <h3 class="contact_title">Twitter</h3>
+                  <span class="contact_subtitle">@rahilahmed1720</span>
+                </div>
+              </div>
+            </a>
+
+            <a href="https://maps.app.goo.gl/LuJzMeye8NgRuPUw7" target="_blank">
+              <div class="contact_info">
+                <i class="uil uil-location-point contact_icon"></i>
+                <div>
+                  <h3 class="contact_title">Location</h3>
+                  <span class="contact_subtitle">Panvel, India</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <form
+            action="https://formspree.io/f/xyyozeaq"
+            class="contact_form grid"
+            id="contact-form"
+            method="POST"
+          >
+            <div id="alert" class="alert_style"></div>
+            <div class="contact_inputs grid">
+              <div class="contact_content">
+                <label class="contact_label">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="contact_input"
+                  id="name"
+                  required
+                />
+              </div>
+              <div class="contact_content">
+                <label for="email" class="contact_label">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="contact_input"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="contact_content">
+              <label for="subject" class="contact_label">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                class="contact_input"
+                id="subject"
+                required
+              />
+            </div>
+            <div class="contact_content">
+              <label for="message" class="contact_label">Message</label>
+              <textarea
+                name="message"
+                id=""
+                cols="0"
+                rows="7"
+                class="contact_input message"
+                id="message"
+                style="resize: vertical"
+                required
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="button button-flex">
+                Send Message
+                <i class="uil uil-message button_icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer_bg">
+        <div class="footer_container container grid">
+          <div>
+            <h1 class="footer_title">Rahil Ahmed Samani</h1>
+            <span class="footer_subtitle">Full Stack Developer</span>
+          </div>
+
+          <ul class="footer_links">
+            <li>
+              <a href="#about" class="footer_link">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="footer_link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer_link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer_socials">
+            <a
+              href="https://www.linkedin.com/in/rahil-ahmed-samani/"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
+            <a
+              href="https://x.com/rahilahmed1720"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a
+              href="https://github.com/Rahilsamani"
+              target="_blank"
+              class="footer_social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer_copy">
+          &#169; Rahil Ahmed Samani. All rights reserved
+        </p>
+      </div>
+    </footer>
 
     <!-- Scroll Top -->
     <a href="#" class="scrollup" id="scroll-up">
