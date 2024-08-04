@@ -1,5 +1,6 @@
 const journeyAnimation = document.getElementById("journey-animation");
 const stages = [
+  ["programming_journey.jpeg"],
   [
     "git.png",
     "github.png",
@@ -15,9 +16,11 @@ const stages = [
   ["nodejs.png", "expressjs.png", "mongodb.png", "redis.png"],
   ["backend_developer.jpg"],
   ["full_stack_web_developer.jpg"],
+  ["python.png", "java.png"],
   ["flutter.png", "dart.png", "firebase.png"],
   ["app_developer.jpg"],
   ["algorithm_winner.jpeg"],
+  ["c.png", "c++.png"],
 ];
 
 let stageIndex = 0;
