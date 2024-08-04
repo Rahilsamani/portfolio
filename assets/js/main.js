@@ -1,3 +1,64 @@
+const journeyAnimation = document.getElementById("journey-animation");
+const stages = [
+  [
+    "git.png",
+    "github.png",
+    "html.png",
+    "css.png",
+    "tailwind.png",
+    "bootstrap.png",
+    "javascript.png",
+    "react.png",
+    "redux.png",
+  ],
+  ["frontend_developer.jpg"],
+  ["nodejs.png", "expressjs.png", "mongodb.png", "redis.png"],
+  ["backend_developer.jpg"],
+  ["full_stack_web_developer.jpg"],
+  ["flutter.png", "dart.png", "firebase.png"],
+  ["app_developer.jpg"],
+  ["algorithm_winner.jpeg"],
+];
+
+let stageIndex = 0;
+let logoIndex = 0;
+
+function showNextLogo() {
+  if (stageIndex < stages.length) {
+    if (logoIndex < stages[stageIndex].length) {
+      const logoElement = document.createElement("img");
+      logoElement.src = `./assets/img/${stages[stageIndex][logoIndex]}`;
+      logoElement.classList.add("logo", "active");
+
+      // If only one image in the stage, make it full size
+      if (stages[stageIndex].length === 1) {
+        logoElement.classList.add("full-size");
+      }
+
+      journeyAnimation.appendChild(logoElement);
+
+      logoIndex++;
+      setTimeout(showNextLogo, 2000); // Show next logo after 2 seconds
+    } else {
+      logoIndex = 0;
+      stageIndex++;
+
+      // Remove previous stage div
+      setTimeout(() => {
+        while (journeyAnimation.firstChild) {
+          journeyAnimation.removeChild(journeyAnimation.firstChild);
+        }
+        if (stageIndex >= stages.length) {
+          stageIndex = 0; // Reset to the first stage for infinite loop
+        }
+        setTimeout(showNextLogo, 500); // Move to next stage after 0.5 seconds
+      }, 2000);
+    }
+  }
+}
+
+showNextLogo();
+
 // Formspree code
 const form = document.getElementById("contact-form");
 
