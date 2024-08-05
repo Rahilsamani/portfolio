@@ -62,7 +62,7 @@ This portfolio website is designed to present my professional profile, including
 ## Usage
 
 - Visit the homepage to see an overview of my skills and projects.
-- Navigate to the "About Me" section to learn more about my background.
+- Navigate to the "About Me" section to learn more about my background and my programming journey.
 - Browse the "Projects" section to see detailed information about my work.
 - Use the "Contact" section to send me a message.
 

@@ -71,13 +71,15 @@ async function handleSubmit(event) {
   var data = new FormData(event.target);
   fetch(event.target.action, {
     method: form.method,
-    body: data,
+    body: JSON.stringify(Object.fromEntries(data)),
     headers: {
+      "Content-Type": "application/json",
       Accept: "application/json",
     },
   })
+    .then((response) => response.json())
     .then((response) => {
-      status.innerHTML = "Your message has been sent.";
+      status.innerHTML = response.message;
       document.querySelector(".alert_style").style.display = "block";
 
       // hide alert after 3 seconds
