@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(
   cors({
-    origin: "http://127.0.0.1:5500",
+    origin: "https://rahilsamani.github.io/portfolio",
     credentials: true,
   })
 );
