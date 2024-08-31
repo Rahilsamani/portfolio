@@ -20,7 +20,7 @@ const stages = [
   ["flutter.png", "dart.png", "firebase.png"],
   ["app_developer.jpg"],
   ["algorithm_winner.jpeg"],
-  ["c.png", "c++.png"],
+  ["c.png", "c++1.png"],
 ];
 
 let stageIndex = 0;
