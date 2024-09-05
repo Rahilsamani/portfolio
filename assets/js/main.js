@@ -1,6 +1,6 @@
 const journeyAnimation = document.getElementById("journey-animation");
 const stages = [
-  ["programming_journey.jpeg"],
+  ["programming_journey.png"],
   [
     "git.png",
     "github.png",
