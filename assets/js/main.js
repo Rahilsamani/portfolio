@@ -21,6 +21,8 @@ const stages = [
   ["app_developer.jpg"],
   ["algorithm_winner.jpeg"],
   ["c.png", "c++1.png"],
+  ["github_consistent.png"],
+  ["leetcode_consistent.png"],
 ];
 
 let stageIndex = 0;
