@@ -24,6 +24,7 @@ const stages = [
   ["github_consistent.png"],
   ["leetcode_consistent.png"],
   ["level1.png", "level2.png", "level3.png", "level4.png"],
+  ["leetcode_consistent2.png"],
 ];
 
 let stageIndex = 0;
