@@ -136,5 +136,3 @@ If you have any questions or want to get in touch, feel free to contact me at:
 Thank you for visiting my portfolio website repository!
 
 ---
-
-Let me know if you'd like help with any other features or sections! 😊
