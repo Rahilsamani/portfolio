@@ -10,6 +10,7 @@ Welcome to the repository for my personal portfolio website. This project showca
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
+- [Journey of Animation](#journey-of-animation)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -25,6 +26,7 @@ This portfolio website is designed to present my professional profile, including
 - **Projects Showcase**: Detailed information about my projects.
 - **Contact Form**: Allows visitors to send messages directly to my email.
 - **Dynamic Content**: Fetches and displays dynamic data, such as recent projects and contact form submissions.
+- **Journey of Animation**: A visual timeline showcasing my personal and professional journey through animations and images.
 
 ## Installation
 
@@ -50,10 +52,7 @@ This portfolio website is designed to present my professional profile, including
    npm install
    ```
 
-3. Set up environment variables:
-   Create a `.env` file in the root directory and add the following:
-
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm start
@@ -64,6 +63,7 @@ This portfolio website is designed to present my professional profile, including
 - Visit the homepage to see an overview of my skills and projects.
 - Navigate to the "About Me" section to learn more about my background and my programming journey.
 - Browse the "Projects" section to see detailed information about my work.
+- Experience the "Journey of Animation" section, which visually narrates my progress through photos and animations.
 - Use the "Contact" section to send me a message.
 
 ## Technologies Used
@@ -107,6 +107,10 @@ portfolio/
 └── README.md
 ```
 
+## Journey of Animation
+
+The **"Journey of Animation"** section offers an engaging way to highlight my career and personal milestones. It utilizes animated transitions and curated images to create a visual timeline that represents:
+
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
@@ -131,3 +135,6 @@ If you have any questions or want to get in touch, feel free to contact me at:
 
 Thank you for visiting my portfolio website repository!
 
+---
+
+Let me know if you'd like help with any other features or sections! 😊
