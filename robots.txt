@@ -1,0 +1,11 @@
+# Allow search engines to index everything on the site
+User-agent: *
+Disallow:
+
+# Allow CSS, JS, and images for proper rendering
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/img/
+
+# Sitemap reference
+Sitemap: https://rahilahmed.vercel.app/sitemap.xml
