@@ -14,18 +14,18 @@ const stages = [
   ],
   ["frontend_developer.jpg"],
   ["nodejs.png", "expressjs.png", "mongodb.png", "redis.png"],
-  ["backend_developer.jpg"],
+  ["backend_developer.webp"],
   ["full_stack_web_developer.jpg"],
   ["python.png", "java.png"],
   ["flutter.png", "dart.png", "firebase.png"],
-  ["app_developer.jpg"],
+  ["app_developer.webp"],
   ["algorithm_winner.jpeg"],
   ["c.png", "c++1.png"],
   ["github_consistent.png"],
-  ["2024-50.gif"],
+  ["2024-50.webp"],
   ["girlscript_badge.png"],
   ["level1.png", "level2.png", "level3.png", "level4.png"],
-  ["2024-100.gif"],
+  ["2024-100.webp"],
 ];
 
 let stageIndex = 0;
