@@ -1,6 +1,6 @@
 const journeyAnimation = document.getElementById("journey-animation");
 const stages = [
-  ["programming_journey.png"],
+  ["programming_journey.webp"],
   [
     "git.png",
     "github.png",
@@ -12,10 +12,10 @@ const stages = [
     "react.png",
     "redux.png",
   ],
-  ["frontend_developer.jpg"],
+  ["frontend_developer.webp"],
   ["nodejs.png", "expressjs.png", "mongodb.png", "redis.png"],
   ["backend_developer.webp"],
-  ["full_stack_web_developer.jpg"],
+  ["full_stack_web_developer.webp"],
   ["python.png", "java.png"],
   ["flutter.png", "dart.png", "firebase.png"],
   ["app_developer.webp"],
@@ -23,8 +23,8 @@ const stages = [
   ["c.png", "c++1.png"],
   ["github_consistent.png"],
   ["2024-50.webp"],
-  ["girlscript_badge.png"],
-  ["level1.png", "level2.png", "level3.png", "level4.png"],
+  ["girlscript_badge.webp"],
+  ["level1.webp", "level2.webp", "level3.webp", "level4.webp"],
   ["2024-100.webp"],
 ];
 
