@@ -393,6 +393,7 @@ button {
 .skills_titles {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .skills_name {
   font-size: var(--normal-font-size);
